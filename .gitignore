@@ -1,0 +1,14 @@
+.venv/
+data/
+checkpoints/
+logs/
+__pycache__/
+.pytest_cache/
+*.pyc
+runs/
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+paper/template_original/
