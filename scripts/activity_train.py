@@ -22,7 +22,7 @@ def main():
     name = args.name or f"{args.model.split('.')[0]}_scb_e{args.epochs}"
     model = YOLO(str(CKPT / args.model) if (CKPT / args.model).exists() else args.model)
     model.train(data=str(PROCESSED / "scb_merged" / "data.yaml"), epochs=args.epochs, imgsz=args.imgsz,
-                batch=args.batch, device=args.device, workers=4, seed=0, patience=15,
+                batch=args.batch, device=args.device, workers=2, seed=0, patience=15,
                 optimizer="SGD", lr0=0.01, momentum=0.937, cos_lr=True,
                 project=str(CKPT / "activity"), name=name, exist_ok=True, plots=True)
 

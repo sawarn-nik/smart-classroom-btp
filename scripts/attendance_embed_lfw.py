@@ -13,7 +13,7 @@ import numpy as np
 from tqdm import tqdm
 
 from src.attendance.degradations import CONDITIONS
-from src.attendance.embedders import ArcFaceEmbedder, Detector, FaceNetEmbedder, largest_face
+from src.attendance.embedders import ArcFaceEmbedder, Detector, FaceNetEmbedder, center_face
 from src.common.paths import LFW_DIR, PROCESSED
 
 
@@ -57,7 +57,7 @@ def main():
         t_det, t_arc, t_fn = [], [], []
         for name, path in tqdm(items, desc=cond, mininterval=10):
             img = fn(cv2.imread(str(path)))
-            t0 = time.perf_counter(); faces = largest_face(det.detect(img)); t1 = time.perf_counter()
+            t0 = time.perf_counter(); faces = center_face(det.detect(img), img.shape); t1 = time.perf_counter()
             if faces:
                 a = arc.embed(img, faces)[0]; t2 = time.perf_counter()
                 f = fnet.embed(img, faces)[0]; t3 = time.perf_counter()

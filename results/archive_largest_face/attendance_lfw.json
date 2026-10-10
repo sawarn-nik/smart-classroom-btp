@@ -1,0 +1,179 @@
+{
+  "verification": {
+    "arcface": {
+      "acc": 0.9865,
+      "acc_std": 0.0024094720491334852,
+      "threshold": 0.23325000000000012,
+      "auc": 0.989849,
+      "tar@far=1e-2": 0.9753333333333334,
+      "tar@far=1e-3": 0.9733333333333334
+    },
+    "facenet": {
+      "acc": 0.9816666666666667,
+      "acc_std": 0.00465474668125631,
+      "threshold": 0.4382499999999999,
+      "auc": 0.9894403333333333,
+      "tar@far=1e-2": 0.9723333333333334,
+      "tar@far=1e-3": 0.953
+    },
+    "pairs_with_detection_failure": 0
+  },
+  "identification": {
+    "k=1": {
+      "arcface": {
+        "rank1": 0.9687162891046386,
+        "tpir@fpir=0.01": 0.9683567062207838,
+        "thr@fpir=0.01": 0.2988177537918091,
+        "tpir@fpir=0.05": 0.9685364976627112,
+        "detect_rate": 1.0,
+        "n_probes": 5562,
+        "n_impostors": 4069,
+        "n_gallery": 423
+      },
+      "facenet": {
+        "rank1": 0.9582883854728514,
+        "tpir@fpir=0.01": 0.796655879180151,
+        "thr@fpir=0.01": 0.7172168493270874,
+        "tpir@fpir=0.05": 0.8989572096368212,
+        "detect_rate": 1.0,
+        "n_probes": 5562,
+        "n_impostors": 4069,
+        "n_gallery": 423
+      }
+    },
+    "k=3": {
+      "arcface": {
+        "rank1": 0.98960983884648,
+        "tpir@fpir=0.01": 0.9893977947413062,
+        "thr@fpir=0.01": 0.3009343147277832,
+        "tpir@fpir=0.05": 0.9893977947413062,
+        "detect_rate": 1.0,
+        "n_probes": 4716,
+        "n_impostors": 4069,
+        "n_gallery": 423
+      },
+      "facenet": {
+        "rank1": 0.9855810008481765,
+        "tpir@fpir=0.01": 0.8939779474130619,
+        "thr@fpir=0.01": 0.7373253107070923,
+        "tpir@fpir=0.05": 0.9561068702290076,
+        "detect_rate": 1.0,
+        "n_probes": 4716,
+        "n_impostors": 4069,
+        "n_gallery": 423
+      }
+    }
+  },
+  "robustness": {
+    "clean": {
+      "arcface": {
+        "rank1": 0.9878997407087294,
+        "tpir@fpir=0.01": 0.9870354364736387,
+        "thr@fpir=0.01": 0.3009343147277832,
+        "tpir@fpir=0.05": 0.9870354364736387,
+        "detect_rate": 1.0,
+        "n_probes": 1157,
+        "n_impostors": 4069,
+        "n_gallery": 423
+      },
+      "facenet": {
+        "rank1": 0.9809853068280034,
+        "tpir@fpir=0.01": 0.8565254969749352,
+        "thr@fpir=0.01": 0.7373253107070923,
+        "tpir@fpir=0.05": 0.9438202247191011,
+        "detect_rate": 1.0,
+        "n_probes": 1157,
+        "n_impostors": 4069,
+        "n_gallery": 423
+      }
+    },
+    "occlusion": {
+      "arcface": {
+        "rank1": 0.9818496110630942,
+        "tpir@fpir=0.01": 0.9801210025929127,
+        "thr@fpir=0.01": 0.3080851435661316,
+        "tpir@fpir=0.05": 0.9801210025929127,
+        "detect_rate": 1.0,
+        "n_probes": 1157,
+        "n_impostors": 1500,
+        "n_gallery": 423
+      },
+      "facenet": {
+        "rank1": 0.9602420051858254,
+        "tpir@fpir=0.01": 0.6810717372515125,
+        "thr@fpir=0.01": 0.7368475198745728,
+        "tpir@fpir=0.05": 0.8591184096802075,
+        "detect_rate": 1.0,
+        "n_probes": 1157,
+        "n_impostors": 1500,
+        "n_gallery": 423
+      }
+    },
+    "blur": {
+      "arcface": {
+        "rank1": 0.9870354364736387,
+        "tpir@fpir=0.01": 0.9853068280034573,
+        "thr@fpir=0.01": 0.3126992881298065,
+        "tpir@fpir=0.05": 0.986171132238548,
+        "detect_rate": 1.0,
+        "n_probes": 1157,
+        "n_impostors": 1500,
+        "n_gallery": 423
+      },
+      "facenet": {
+        "rank1": 0.9732065687121867,
+        "tpir@fpir=0.01": 0.7778738115816768,
+        "thr@fpir=0.01": 0.7368040680885315,
+        "tpir@fpir=0.05": 0.8971477960242005,
+        "detect_rate": 1.0,
+        "n_probes": 1157,
+        "n_impostors": 1500,
+        "n_gallery": 423
+      }
+    },
+    "low_light": {
+      "arcface": {
+        "rank1": 0.9878997407087294,
+        "tpir@fpir=0.01": 0.9844425237683665,
+        "thr@fpir=0.01": 0.3065166473388672,
+        "tpir@fpir=0.05": 0.9870354364736387,
+        "detect_rate": 1.0,
+        "n_probes": 1157,
+        "n_impostors": 1500,
+        "n_gallery": 423
+      },
+      "facenet": {
+        "rank1": 0.9671564390665515,
+        "tpir@fpir=0.01": 0.7640449438202247,
+        "thr@fpir=0.01": 0.7296326756477356,
+        "tpir@fpir=0.05": 0.888504753673293,
+        "detect_rate": 1.0,
+        "n_probes": 1157,
+        "n_impostors": 1500,
+        "n_gallery": 423
+      }
+    },
+    "low_res": {
+      "arcface": {
+        "rank1": 0.9878997407087294,
+        "tpir@fpir=0.01": 0.9844425237683665,
+        "thr@fpir=0.01": 0.31086859107017517,
+        "tpir@fpir=0.05": 0.9870354364736387,
+        "detect_rate": 1.0,
+        "n_probes": 1157,
+        "n_impostors": 1500,
+        "n_gallery": 423
+      },
+      "facenet": {
+        "rank1": 0.9732065687121867,
+        "tpir@fpir=0.01": 0.7450302506482281,
+        "thr@fpir=0.01": 0.7346985340118408,
+        "tpir@fpir=0.05": 0.8738115816767502,
+        "detect_rate": 1.0,
+        "n_probes": 1157,
+        "n_impostors": 1500,
+        "n_gallery": 423
+      }
+    }
+  }
+}

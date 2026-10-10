@@ -32,10 +32,22 @@ def low_res(img, face_px=28):
     return cv2.resize(small, (w, h), interpolation=cv2.INTER_LINEAR)
 
 
+def occlude_eyes(img):
+    """Sunglasses-like band across the eyes."""
+    out = img.copy()
+    h, w = out.shape[:2]
+    out[int(h * 0.40):int(h * 0.50), int(w * 0.30):int(w * 0.70)] = (20, 20, 20)
+    return out
+
+
 CONDITIONS = {
     "clean": lambda x: x,
     "occlusion": occlude_lower,
+    "occlusion_eyes": occlude_eyes,
     "blur": blur,
+    "blur_strong": lambda x: blur(x, 15),
     "low_light": low_light,
     "low_res": low_res,
+    "low_res_20": lambda x: low_res(x, 20),
+    "low_res_14": lambda x: low_res(x, 14),
 }

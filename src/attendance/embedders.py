@@ -87,3 +87,13 @@ def largest_face(faces):
         return []
     areas = [(f.bbox[2] - f.bbox[0]) * (f.bbox[3] - f.bbox[1]) for f in faces]
     return [faces[int(np.argmax(areas))]]
+
+
+def center_face(faces, img_shape):
+    """Face whose centre is closest to the image centre (LFW protocol: the
+    labelled person is the centred face; other people may be larger)."""
+    if not faces:
+        return []
+    cy, cx = img_shape[0] / 2, img_shape[1] / 2
+    d = [((f.bbox[0] + f.bbox[2]) / 2 - cx) ** 2 + ((f.bbox[1] + f.bbox[3]) / 2 - cy) ** 2 for f in faces]
+    return [faces[int(np.argmin(d))]]

@@ -17,7 +17,7 @@ from src.pipeline.system import ClassroomAnalytics
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--frames", type=int, default=100)
-    ap.add_argument("--activity-run", default="yolov8n_scb_e50")
+    ap.add_argument("--activity-run", default="yolov8n_scb_e30")
     ap.add_argument("--det-size", type=int, default=640)
     args = ap.parse_args()
 

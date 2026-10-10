@@ -15,6 +15,8 @@ from src.attendance.metrics import open_set, verification_summary
 from src.common.paths import FIGURES, LFW_PAIRS, METRICS, PROCESSED
 
 MODELS = ["arcface", "facenet"]
+CONDS = ["clean", "occlusion", "occlusion_eyes", "blur", "blur_strong", "low_light",
+         "low_res", "low_res_20", "low_res_14"]
 LABEL = {"arcface": "ArcFace (ResNet-50)", "facenet": "FaceNet (InceptionResNetV1)"}
 
 
@@ -120,7 +122,7 @@ def main():
         out["identification"][f"k={k}"] = identification(clean, clean, k, ids5, singles)
 
     out["robustness"] = {}
-    for cond in ["clean", "occlusion", "blur", "low_light", "low_res"]:
+    for cond in CONDS:
         try:
             probe = clean if cond == "clean" else load(cond)
         except FileNotFoundError:
@@ -134,12 +136,12 @@ def main():
     if len(out["robustness"]) > 1:
         conds = list(out["robustness"])
         x = np.arange(len(conds)); w = 0.38
-        plt.figure(figsize=(6, 3.4))
+        plt.figure(figsize=(8, 3.4))
         for j, m in enumerate(MODELS):
             v = [100 * out["robustness"][c][m]["rank1"] for c in conds]
             b = plt.bar(x + (j - .5) * w, v, w, label=LABEL[m])
             plt.bar_label(b, fmt="%.1f", fontsize=7)
-        plt.xticks(x, [c.replace("_", " ") for c in conds]); plt.ylabel("Rank-1 accuracy (%)")
+        plt.xticks(x, [c.replace("_", " ") for c in conds], rotation=25, fontsize=8); plt.ylabel("Rank-1 accuracy (%)")
         plt.ylim(0, 105); plt.legend(fontsize=8, loc="lower left"); plt.tight_layout()
         plt.savefig(FIGURES / "attendance_robustness.pdf"); plt.savefig(FIGURES / "attendance_robustness.png", dpi=200)
         plt.close()

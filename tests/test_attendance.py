@@ -56,3 +56,11 @@ def test_degradations_keep_shape_and_dtype():
         out = fn(img)
         assert out.shape == img.shape and out.dtype == np.uint8, name
     assert CONDITIONS["low_light"](img).mean() < img.mean()
+
+
+def test_center_face_prefers_centred_over_larger():
+    from src.attendance.embedders import Face, center_face
+    big_corner = Face(np.array([0, 0, 120, 120.]), None, 0.9)
+    small_centre = Face(np.array([100, 100, 150, 150.]), None, 0.9)
+    assert center_face([big_corner, small_centre], (250, 250, 3)) == [small_centre]
+    assert center_face([], (250, 250, 3)) == []
