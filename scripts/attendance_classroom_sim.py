@@ -33,7 +33,7 @@ def head_crop(path):
 
 def build_frame(people, rng):
     canvas = np.full((H, W, 3), rng.integers(60, 140), np.uint8)
-    canvas = cv2.add(canvas, rng.normal(0, 6, canvas.shape).astype(np.int8).astype(np.uint8))
+    canvas = np.clip(canvas + rng.normal(0, 6, canvas.shape), 0, 255).astype(np.uint8)
     per_row = int(np.ceil(len(people) / ROWS))
     rng.shuffle(people)
     boxes = []

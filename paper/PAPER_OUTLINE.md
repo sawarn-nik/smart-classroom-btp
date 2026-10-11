@@ -8,7 +8,7 @@ Don't type a number that isn't in those files.
 - Remove 97.4% / F1 0.91 / mAP 88.6% / <67 ms / "new state-of-the-art". None of these were measured.
 - Use the real numbers instead:
   - LFW verification: ArcFace 99.85%, FaceNet 99.38%
-  - Classroom-sim attendance F1: 99.7%
+  - Classroom-sim attendance F1: 99.5%
   - SCB behaviour: mAP50 47.8%
   - Pipeline steady state: ~390 ms/frame on an M1 CPU for 17-40 students
   - Engagement: DAiSEE result (TODO once data arrives)
@@ -69,8 +69,8 @@ Don't type a number that isn't in those files.
   - FaceNet collapses under eye occlusion (TPIR 27.0%) and 14-px faces (19.5%). ArcFace holds at 99.8% and 95.9%.
   - Caveat: WebFace600K may contain LFW celebrities, so ArcFace numbers on LFW can be optimistic.
 - `attendance_classroom_sim.tex` + `classroom_sim_example_0.jpg`
-  - ArcFace: F1 99.7%, exact roll in 88.3% of sessions, back row (38 px) recall 97.5%.
-  - FaceNet: back-row recall 58.3%, never an exact roll.
+  - ArcFace: F1 99.5%, exact roll in 76.7% of sessions, back row (38 px) recall 95.1%.
+  - FaceNet: back-row recall 60.5%, exact roll in 1.7% of sessions.
   - Limitation: synthetic pasted composites, not real classroom video.
 - `activity_scb.tex` + `activity_training_curves.png`
   - Source-aware mAP50 is 47.8% (the naive figure is 44.8%).

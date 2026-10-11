@@ -22,8 +22,8 @@
       "arcface_f1": 1.0,
       "arcface_exact_roll": 1.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.7142857142857143,
-      "facenet_f1": 0.8333333333333333,
+      "facenet_recall": 0.75,
+      "facenet_f1": 0.8571428571428571,
       "facenet_exact_roll": 0.0
     },
     {
@@ -44,28 +44,28 @@
       "session": 2,
       "n_present": 24,
       "n_faces_placed": 27,
-      "n_detected": 27,
+      "n_detected": 26,
       "arcface_precision": 1.0,
-      "arcface_recall": 1.0,
-      "arcface_f1": 1.0,
-      "arcface_exact_roll": 1.0,
+      "arcface_recall": 0.9583333333333334,
+      "arcface_f1": 0.9787234042553191,
+      "arcface_exact_roll": 0.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.7916666666666666,
-      "facenet_f1": 0.8837209302325582,
+      "facenet_recall": 0.8333333333333334,
+      "facenet_f1": 0.9090909090909091,
       "facenet_exact_roll": 0.0
     },
     {
       "session": 3,
       "n_present": 20,
       "n_faces_placed": 23,
-      "n_detected": 23,
+      "n_detected": 21,
       "arcface_precision": 1.0,
-      "arcface_recall": 1.0,
-      "arcface_f1": 1.0,
-      "arcface_exact_roll": 1.0,
+      "arcface_recall": 0.9,
+      "arcface_f1": 0.9473684210526316,
+      "arcface_exact_roll": 0.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.8,
-      "facenet_f1": 0.888888888888889,
+      "facenet_recall": 0.75,
+      "facenet_f1": 0.8571428571428571,
       "facenet_exact_roll": 0.0
     },
     {
@@ -78,8 +78,8 @@
       "arcface_f1": 1.0,
       "arcface_exact_roll": 1.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.7916666666666666,
-      "facenet_f1": 0.8837209302325582,
+      "facenet_recall": 0.8333333333333334,
+      "facenet_f1": 0.9090909090909091,
       "facenet_exact_roll": 0.0
     },
     {
@@ -120,8 +120,8 @@
       "arcface_f1": 1.0,
       "arcface_exact_roll": 1.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.8571428571428571,
-      "facenet_f1": 0.923076923076923,
+      "facenet_recall": 0.8214285714285714,
+      "facenet_f1": 0.9019607843137255,
       "facenet_exact_roll": 0.0
     },
     {
@@ -176,22 +176,22 @@
       "arcface_f1": 0.9795918367346939,
       "arcface_exact_roll": 0.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.8,
-      "facenet_f1": 0.888888888888889,
+      "facenet_recall": 0.84,
+      "facenet_f1": 0.9130434782608696,
       "facenet_exact_roll": 0.0
     },
     {
       "session": 12,
       "n_present": 23,
       "n_faces_placed": 26,
-      "n_detected": 26,
+      "n_detected": 27,
       "arcface_precision": 1.0,
       "arcface_recall": 1.0,
       "arcface_f1": 1.0,
       "arcface_exact_roll": 1.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.9130434782608695,
-      "facenet_f1": 0.9545454545454545,
+      "facenet_recall": 0.9565217391304348,
+      "facenet_f1": 0.9777777777777777,
       "facenet_exact_roll": 0.0
     },
     {
@@ -204,8 +204,8 @@
       "arcface_f1": 1.0,
       "arcface_exact_roll": 1.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.7931034482758621,
-      "facenet_f1": 0.8846153846153846,
+      "facenet_recall": 0.7241379310344828,
+      "facenet_f1": 0.8400000000000001,
       "facenet_exact_roll": 0.0
     },
     {
@@ -232,8 +232,8 @@
       "arcface_f1": 1.0,
       "arcface_exact_roll": 1.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.7037037037037037,
-      "facenet_f1": 0.8260869565217391,
+      "facenet_recall": 0.6666666666666666,
+      "facenet_f1": 0.8,
       "facenet_exact_roll": 0.0
     },
     {
@@ -246,8 +246,8 @@
       "arcface_f1": 1.0,
       "arcface_exact_roll": 1.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.8,
-      "facenet_f1": 0.888888888888889,
+      "facenet_recall": 0.84,
+      "facenet_f1": 0.9130434782608696,
       "facenet_exact_roll": 0.0
     },
     {
@@ -274,22 +274,22 @@
       "arcface_f1": 0.9795918367346939,
       "arcface_exact_roll": 0.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.64,
-      "facenet_f1": 0.7804878048780487,
+      "facenet_recall": 0.68,
+      "facenet_f1": 0.8095238095238095,
       "facenet_exact_roll": 0.0
     },
     {
       "session": 19,
       "n_present": 27,
       "n_faces_placed": 30,
-      "n_detected": 30,
+      "n_detected": 29,
       "arcface_precision": 1.0,
-      "arcface_recall": 1.0,
-      "arcface_f1": 1.0,
-      "arcface_exact_roll": 1.0,
+      "arcface_recall": 0.9629629629629629,
+      "arcface_f1": 0.9811320754716981,
+      "arcface_exact_roll": 0.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.6666666666666666,
-      "facenet_f1": 0.8,
+      "facenet_recall": 0.7037037037037037,
+      "facenet_f1": 0.8260869565217391,
       "facenet_exact_roll": 0.0
     },
     {
@@ -302,8 +302,8 @@
       "arcface_f1": 1.0,
       "arcface_exact_roll": 1.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.7857142857142857,
-      "facenet_f1": 0.88,
+      "facenet_recall": 0.8214285714285714,
+      "facenet_f1": 0.9019607843137255,
       "facenet_exact_roll": 0.0
     },
     {
@@ -344,8 +344,8 @@
       "arcface_f1": 1.0,
       "arcface_exact_roll": 1.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.84,
-      "facenet_f1": 0.9130434782608696,
+      "facenet_recall": 0.88,
+      "facenet_f1": 0.9361702127659575,
       "facenet_exact_roll": 0.0
     },
     {
@@ -358,8 +358,8 @@
       "arcface_f1": 1.0,
       "arcface_exact_roll": 1.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.9523809523809523,
-      "facenet_f1": 0.975609756097561,
+      "facenet_recall": 0.9047619047619048,
+      "facenet_f1": 0.9500000000000001,
       "facenet_exact_roll": 0.0
     },
     {
@@ -372,8 +372,8 @@
       "arcface_f1": 1.0,
       "arcface_exact_roll": 1.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.6086956521739131,
-      "facenet_f1": 0.7567567567567568,
+      "facenet_recall": 0.6956521739130435,
+      "facenet_f1": 0.8205128205128205,
       "facenet_exact_roll": 0.0
     },
     {
@@ -386,8 +386,8 @@
       "arcface_f1": 1.0,
       "arcface_exact_roll": 1.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.7391304347826086,
-      "facenet_f1": 0.85,
+      "facenet_recall": 0.8260869565217391,
+      "facenet_f1": 0.9047619047619047,
       "facenet_exact_roll": 0.0
     },
     {
@@ -400,8 +400,8 @@
       "arcface_f1": 1.0,
       "arcface_exact_roll": 1.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.84,
-      "facenet_f1": 0.9130434782608696,
+      "facenet_recall": 0.76,
+      "facenet_f1": 0.8636363636363636,
       "facenet_exact_roll": 0.0
     },
     {
@@ -422,28 +422,28 @@
       "session": 29,
       "n_present": 27,
       "n_faces_placed": 30,
-      "n_detected": 31,
+      "n_detected": 29,
       "arcface_precision": 1.0,
-      "arcface_recall": 1.0,
-      "arcface_f1": 1.0,
-      "arcface_exact_roll": 1.0,
+      "arcface_recall": 0.9259259259259259,
+      "arcface_f1": 0.9615384615384615,
+      "arcface_exact_roll": 0.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.8518518518518519,
-      "facenet_f1": 0.92,
+      "facenet_recall": 0.7777777777777778,
+      "facenet_f1": 0.8750000000000001,
       "facenet_exact_roll": 0.0
     },
     {
       "session": 30,
       "n_present": 27,
       "n_faces_placed": 30,
-      "n_detected": 30,
+      "n_detected": 32,
       "arcface_precision": 1.0,
       "arcface_recall": 1.0,
       "arcface_f1": 1.0,
       "arcface_exact_roll": 1.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.9259259259259259,
-      "facenet_f1": 0.9615384615384615,
+      "facenet_recall": 0.9629629629629629,
+      "facenet_f1": 0.9811320754716981,
       "facenet_exact_roll": 0.0
     },
     {
@@ -456,8 +456,8 @@
       "arcface_f1": 1.0,
       "arcface_exact_roll": 1.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.75,
-      "facenet_f1": 0.8571428571428571,
+      "facenet_recall": 0.6666666666666666,
+      "facenet_f1": 0.8,
       "facenet_exact_roll": 0.0
     },
     {
@@ -492,7 +492,7 @@
       "session": 34,
       "n_present": 28,
       "n_faces_placed": 31,
-      "n_detected": 31,
+      "n_detected": 32,
       "arcface_precision": 1.0,
       "arcface_recall": 1.0,
       "arcface_f1": 1.0,
@@ -506,14 +506,14 @@
       "session": 35,
       "n_present": 27,
       "n_faces_placed": 30,
-      "n_detected": 30,
+      "n_detected": 29,
       "arcface_precision": 1.0,
-      "arcface_recall": 1.0,
-      "arcface_f1": 1.0,
-      "arcface_exact_roll": 1.0,
+      "arcface_recall": 0.9629629629629629,
+      "arcface_f1": 0.9811320754716981,
+      "arcface_exact_roll": 0.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.8148148148148148,
-      "facenet_f1": 0.8979591836734693,
+      "facenet_recall": 0.7777777777777778,
+      "facenet_f1": 0.8750000000000001,
       "facenet_exact_roll": 0.0
     },
     {
@@ -540,8 +540,8 @@
       "arcface_f1": 1.0,
       "arcface_exact_roll": 1.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.7777777777777778,
-      "facenet_f1": 0.8750000000000001,
+      "facenet_recall": 0.7407407407407407,
+      "facenet_f1": 0.851063829787234,
       "facenet_exact_roll": 0.0
     },
     {
@@ -554,8 +554,8 @@
       "arcface_f1": 1.0,
       "arcface_exact_roll": 1.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.6785714285714286,
-      "facenet_f1": 0.8085106382978724,
+      "facenet_recall": 0.6428571428571429,
+      "facenet_f1": 0.782608695652174,
       "facenet_exact_roll": 0.0
     },
     {
@@ -582,8 +582,8 @@
       "arcface_f1": 1.0,
       "arcface_exact_roll": 1.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.8076923076923077,
-      "facenet_f1": 0.8936170212765957,
+      "facenet_recall": 0.7692307692307693,
+      "facenet_f1": 0.8695652173913044,
       "facenet_exact_roll": 0.0
     },
     {
@@ -596,8 +596,8 @@
       "arcface_f1": 1.0,
       "arcface_exact_roll": 1.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.7307692307692307,
-      "facenet_f1": 0.8444444444444443,
+      "facenet_recall": 0.7692307692307693,
+      "facenet_f1": 0.8695652173913044,
       "facenet_exact_roll": 0.0
     },
     {
@@ -624,22 +624,22 @@
       "arcface_f1": 0.9818181818181818,
       "arcface_exact_roll": 0.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.7142857142857143,
-      "facenet_f1": 0.8333333333333333,
+      "facenet_recall": 0.75,
+      "facenet_f1": 0.8571428571428571,
       "facenet_exact_roll": 0.0
     },
     {
       "session": 44,
       "n_present": 22,
       "n_faces_placed": 25,
-      "n_detected": 25,
+      "n_detected": 24,
       "arcface_precision": 1.0,
-      "arcface_recall": 1.0,
-      "arcface_f1": 1.0,
-      "arcface_exact_roll": 1.0,
+      "arcface_recall": 0.9545454545454546,
+      "arcface_f1": 0.9767441860465117,
+      "arcface_exact_roll": 0.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.7272727272727273,
-      "facenet_f1": 0.8421052631578948,
+      "facenet_recall": 0.6363636363636364,
+      "facenet_f1": 0.7777777777777778,
       "facenet_exact_roll": 0.0
     },
     {
@@ -652,8 +652,8 @@
       "arcface_f1": 1.0,
       "arcface_exact_roll": 1.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.7777777777777778,
-      "facenet_f1": 0.8750000000000001,
+      "facenet_recall": 0.8148148148148148,
+      "facenet_f1": 0.8979591836734693,
       "facenet_exact_roll": 0.0
     },
     {
@@ -666,8 +666,8 @@
       "arcface_f1": 1.0,
       "arcface_exact_roll": 1.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.7307692307692307,
-      "facenet_f1": 0.8444444444444443,
+      "facenet_recall": 0.8076923076923077,
+      "facenet_f1": 0.8936170212765957,
       "facenet_exact_roll": 0.0
     },
     {
@@ -688,14 +688,14 @@
       "session": 48,
       "n_present": 25,
       "n_faces_placed": 28,
-      "n_detected": 27,
+      "n_detected": 28,
       "arcface_precision": 1.0,
-      "arcface_recall": 0.92,
-      "arcface_f1": 0.9583333333333334,
+      "arcface_recall": 0.96,
+      "arcface_f1": 0.9795918367346939,
       "arcface_exact_roll": 0.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.56,
-      "facenet_f1": 0.717948717948718,
+      "facenet_recall": 0.64,
+      "facenet_f1": 0.7804878048780487,
       "facenet_exact_roll": 0.0
     },
     {
@@ -730,11 +730,11 @@
       "session": 51,
       "n_present": 23,
       "n_faces_placed": 26,
-      "n_detected": 26,
+      "n_detected": 25,
       "arcface_precision": 1.0,
-      "arcface_recall": 1.0,
-      "arcface_f1": 1.0,
-      "arcface_exact_roll": 1.0,
+      "arcface_recall": 0.9565217391304348,
+      "arcface_f1": 0.9777777777777777,
+      "arcface_exact_roll": 0.0,
       "facenet_precision": 1.0,
       "facenet_recall": 0.6521739130434783,
       "facenet_f1": 0.7894736842105263,
@@ -750,8 +750,8 @@
       "arcface_f1": 1.0,
       "arcface_exact_roll": 1.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.6538461538461539,
-      "facenet_f1": 0.7906976744186047,
+      "facenet_recall": 0.7307692307692307,
+      "facenet_f1": 0.8444444444444443,
       "facenet_exact_roll": 0.0
     },
     {
@@ -764,8 +764,8 @@
       "arcface_f1": 1.0,
       "arcface_exact_roll": 1.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.8148148148148148,
-      "facenet_f1": 0.8979591836734693,
+      "facenet_recall": 0.7777777777777778,
+      "facenet_f1": 0.8750000000000001,
       "facenet_exact_roll": 0.0
     },
     {
@@ -778,8 +778,8 @@
       "arcface_f1": 1.0,
       "arcface_exact_roll": 1.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.7272727272727273,
-      "facenet_f1": 0.8421052631578948,
+      "facenet_recall": 0.6818181818181818,
+      "facenet_f1": 0.8108108108108109,
       "facenet_exact_roll": 0.0
     },
     {
@@ -792,9 +792,9 @@
       "arcface_f1": 1.0,
       "arcface_exact_roll": 1.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.9615384615384616,
-      "facenet_f1": 0.9803921568627451,
-      "facenet_exact_roll": 0.0
+      "facenet_recall": 1.0,
+      "facenet_f1": 1.0,
+      "facenet_exact_roll": 1.0
     },
     {
       "session": 56,
@@ -806,8 +806,8 @@
       "arcface_f1": 1.0,
       "arcface_exact_roll": 1.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.782608695652174,
-      "facenet_f1": 0.878048780487805,
+      "facenet_recall": 0.8260869565217391,
+      "facenet_f1": 0.9047619047619047,
       "facenet_exact_roll": 0.0
     },
     {
@@ -820,8 +820,8 @@
       "arcface_f1": 1.0,
       "arcface_exact_roll": 1.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.8076923076923077,
-      "facenet_f1": 0.8936170212765957,
+      "facenet_recall": 0.8846153846153846,
+      "facenet_f1": 0.9387755102040816,
       "facenet_exact_roll": 0.0
     },
     {
@@ -834,8 +834,8 @@
       "arcface_f1": 1.0,
       "arcface_exact_roll": 1.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.5769230769230769,
-      "facenet_f1": 0.7317073170731707,
+      "facenet_recall": 0.6153846153846154,
+      "facenet_f1": 0.761904761904762,
       "facenet_exact_roll": 0.0
     },
     {
@@ -848,38 +848,38 @@
       "arcface_f1": 1.0,
       "arcface_exact_roll": 1.0,
       "facenet_precision": 1.0,
-      "facenet_recall": 0.75,
-      "facenet_f1": 0.8571428571428571,
+      "facenet_recall": 0.7916666666666666,
+      "facenet_f1": 0.8837209302325582,
       "facenet_exact_roll": 0.0
     }
   ],
   "aggregate": {
-    "detection_rate": 1.0,
+    "detection_rate": 0.9976567076742824,
     "arcface_precision": 1.0,
-    "arcface_recall": 0.9948556902867248,
-    "arcface_f1": 0.9973629220428203,
-    "arcface_exact_roll": 0.8833333333333333,
+    "arcface_recall": 0.9892098966010759,
+    "arcface_f1": 0.994457503793078,
+    "arcface_exact_roll": 0.7666666666666667,
     "arcface_recall_by_row_front_to_back": [
       1.0,
       1.0,
       1.0,
       1.0,
-      0.9753086419753086
+      0.9506172839506173
     ],
-    "arcface_embed_ms_per_frame": 1639.207559049828,
+    "arcface_embed_ms_per_frame": 1762.7848339635723,
     "facenet_precision": 1.0,
-    "facenet_recall": 0.7752706605405256,
-    "facenet_f1": 0.8705374311519783,
-    "facenet_exact_roll": 0.0,
+    "facenet_recall": 0.781802052423117,
+    "facenet_f1": 0.8747684557034476,
+    "facenet_exact_roll": 0.016666666666666666,
     "facenet_recall_by_row_front_to_back": [
-      0.9022222222222223,
+      0.88,
       0.8731117824773413,
-      0.8012422360248447,
-      0.7538461538461538,
-      0.5833333333333334
+      0.8074534161490683,
+      0.7723076923076924,
+      0.6049382716049383
     ],
-    "facenet_embed_ms_per_frame": 1912.1330756800792,
-    "detect_ms_per_frame": 419.00696248728,
+    "facenet_embed_ms_per_frame": 1914.277986784388,
+    "detect_ms_per_frame": 438.2669980172068,
     "face_px_by_row_front_to_back": [
       130.0,
       107.0,
