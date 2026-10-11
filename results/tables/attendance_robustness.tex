@@ -1,0 +1,22 @@
+\begin{table}[H]
+\caption{Identification under synthetic classroom corruptions applied to probe images (gallery: 3 clean images per identity; up to 3 probes per identity).}
+\centering
+\label{tab:att_rob}
+\begin{tabular}{lcccc}
+\toprule
+\multirow{2}{*}{\bf Condition} & \multicolumn{2}{c}{\bf FaceNet} & \multicolumn{2}{c}{\bf ArcFace} \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5}
+ & Rank-1 (\%) & TPIR@1\% & Rank-1 (\%) & TPIR@1\% \\
+\midrule
+Clean & 99.31 & 89.71 & 99.91 & 99.91 \\
+Lower-face occlusion & 98.01 & 74.68 & 99.91 & 99.83 \\
+Eye occlusion & 79.78 & 26.97 & 99.91 & 99.83 \\
+Blur ($k$=9) & 98.79 & 81.24 & 99.91 & 99.91 \\
+Blur ($k$=15) & 96.63 & 58.86 & 99.91 & 99.83 \\
+Low light & 98.36 & 79.26 & 99.91 & 99.91 \\
+Face $\approx$28\,px & 98.79 & 77.44 & 99.91 & 99.91 \\
+Face $\approx$20\,px & 93.09 & 56.53 & 99.91 & 99.74 \\
+Face $\approx$14\,px & 70.27 & 19.45 & 99.48 & 95.85 \\
+\bottomrule
+\end{tabular}
+\end{table}

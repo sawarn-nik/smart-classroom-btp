@@ -1,0 +1,15 @@
+\begin{table}[H]
+\caption{End-to-end attendance on 60 synthetic classroom frames (1920$\times$1080, 30 enrolled students, 70--95\% present, 3 unenrolled visitors). Exact roll = session with no attendance error. Face widths per row (front to back): 130 / 107 / 84 / 61 / 38\,px.}
+\centering
+\label{tab:att_sim}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{lccccc}
+\toprule
+\bf Embedding & \bf Precision (\%) & \bf Recall (\%) & \bf F1 (\%) & \bf Exact roll (\%) & \bf Recall by row (\%) \\
+\midrule
+FaceNet & 100.00 & 77.53 & 87.05 & 0.0 & 90.2 / 87.3 / 80.1 / 75.4 / 58.3 \\
+ArcFace & 100.00 & 99.49 & 99.74 & 88.3 & 100.0 / 100.0 / 100.0 / 100.0 / 97.5 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

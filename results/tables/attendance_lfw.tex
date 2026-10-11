@@ -1,0 +1,17 @@
+\begin{table}[H]
+\caption{Face recognition on LFW. Verification: 6000 standard pairs, 10-fold. Identification: 423 enrolled identities, $k$ enrolment images each, 4069 unenrolled impostor probes.}
+\centering
+\label{tab:att_lfw}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{lccccc}
+\toprule
+\multirow{2}{*}{\bf Embedding} & \multicolumn{2}{c}{\bf Verification} & \multicolumn{3}{c}{\bf Identification} \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-6}
+ & Acc. (\%) & TAR@FAR=$10^{-3}$ & Rank-1, $k$=1 & Rank-1, $k$=3 & TPIR@FPIR=1\% \\
+\midrule
+FaceNet (InceptionResNetV1, triplet) & 99.38 $\pm$ 0.39 & 97.73 & 98.53 & 99.58 & 92.37 \\
+ArcFace (ResNet-50) & 99.85 $\pm$ 0.17 & 99.73 & 99.95 & 99.94 & 99.94 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

@@ -1,0 +1,99 @@
+{
+  "runs": [
+    {
+      "image": "000aea4ac01294c0a4429dc14ad8860f.jpg",
+      "faces": 32,
+      "identified": 32,
+      "first5_total_ms": 1639.0650911955163,
+      "steady_total_ms": 448.2880414871033,
+      "steady_breakdown_ms": {
+        "detect": 99.95904148672707,
+        "track": 2.8389375074766576,
+        "attendance": 67.96849999227561,
+        "engagement": 220.43866702006198,
+        "activity": 38.478125497931615,
+        "total": 448.2880414871033
+      }
+    },
+    {
+      "image": "012a2115f94529f0df610b993a78bbb6.jpg",
+      "faces": 31,
+      "identified": 30,
+      "first5_total_ms": 1791.421950806398,
+      "steady_total_ms": 481.34454144746996,
+      "steady_breakdown_ms": {
+        "detect": 100.15893750824034,
+        "track": 2.4881039862520993,
+        "attendance": 85.98368748789653,
+        "engagement": 227.73241650429554,
+        "activity": 32.5020210002549,
+        "total": 481.34454144746996
+      }
+    },
+    {
+      "image": "01cf02bfaaf7d214a3f3e5168a121a82.jpg",
+      "faces": 17,
+      "identified": 16,
+      "first5_total_ms": 920.7872419967316,
+      "steady_total_ms": 251.94981202366762,
+      "steady_breakdown_ms": {
+        "detect": 99.46324999327771,
+        "track": 0.8393745229113847,
+        "attendance": 0.001813023118302226,
+        "engagement": 112.54800003371201,
+        "activity": 30.235541984438896,
+        "total": 251.94981202366762
+      }
+    },
+    {
+      "image": "044b2f67c07eec8c0d54692504a95fc9.jpg",
+      "faces": 40,
+      "identified": 40,
+      "first5_total_ms": 2016.252791590523,
+      "steady_total_ms": 468.53093651589006,
+      "steady_breakdown_ms": {
+        "detect": 99.77377051836811,
+        "track": 4.500354523770511,
+        "attendance": 63.01991699729115,
+        "engagement": 262.8360624948982,
+        "activity": 37.52389599685557,
+        "total": 468.53093651589006
+      }
+    },
+    {
+      "image": "0513b98e3acd7d9d21ad32d5725a0798.jpg",
+      "faces": 20,
+      "identified": 20,
+      "first5_total_ms": 1247.9725586017594,
+      "steady_total_ms": 295.11539556551725,
+      "steady_breakdown_ms": {
+        "detect": 99.8943334852811,
+        "track": 1.072333485353738,
+        "attendance": 0.0017920101527124643,
+        "engagement": 160.6791880039964,
+        "activity": 33.417833474231884,
+        "total": 295.11539556551725
+      }
+    }
+  ],
+  "mean_steady_total_ms": 389.04574540792964,
+  "mean_first5_total_ms": 1523.0999268381856,
+  "identified_ratio": 0.9857142857142858,
+  "mediapipe_cue_success_by_face_width": {
+    "<40px": {
+      "ok": 11,
+      "n": 120,
+      "rate": 0.09166666666666666
+    },
+    "40-80px": {
+      "ok": 5,
+      "n": 15,
+      "rate": 0.3333333333333333
+    },
+    ">80px": {
+      "ok": 4,
+      "n": 5,
+      "rate": 0.8
+    }
+  }
+}

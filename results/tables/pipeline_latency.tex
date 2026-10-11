@@ -1,0 +1,17 @@
+\begin{table}[H]
+\caption{Per-frame latency (ms, median) on an Apple M1 CPU (YOLO on the M1 GPU). Worst case: 99 unrelated SCB classroom photos (mean 14.0 faces/frame), every face identified each frame. Steady state: static camera, identities cached after confirmation (mean of 5 clips with 17--40 students).}
+\centering
+\label{tab:latency}
+\begin{tabular}{lcc}
+\toprule
+\bf Stage & \bf Worst case & \bf Steady state \\
+\midrule
+Face detection (SCRFD) & 102.2 & 99.8 \\
+Tracking & 5.6 & 2.3 \\
+Attendance (ArcFace) & 818.5 & 43.4 \\
+Engagement cues (MediaPipe) & 87.8 & 196.8 \\
+Behaviour detection (YOLOv8n) & 33.3 & 34.4 \\
+\bf Total & 1055.5 & 389.0 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,20 @@
+\begin{table}[H]
+\caption{Behaviour detection with fine-tuned YOLOv8n (3.1\,M parameters) on the held-out SCB test split. Each class is scored on test images from the SCB subset that annotates it.}
+\centering
+\label{tab:act}
+\begin{tabular}{lcccc}
+\toprule
+\bf Class & \bf P (\%) & \bf R (\%) & \bf AP$_{50}$ (\%) & \bf AP$_{50:95}$ (\%) \\
+\midrule
+Hand raising & 53.9 & 65.1 & 60.6 & 42.7 \\
+Reading & 43.6 & 57.4 & 47.3 & 32.8 \\
+Writing & 47.5 & 62.6 & 56.1 & 41.6 \\
+Bowing head & 50.3 & 18.9 & 27.9 & 17.3 \\
+Turning head & 40.8 & 18.5 & 22.6 & 13.6 \\
+Discussing & 73.3 & 62.0 & 72.3 & 48.5 \\
+\midrule
+Mean (source-aware) & & & 47.8 & 32.8 \\
+All test images (naive) & & & 44.8 & 30.9 \\
+\bottomrule
+\end{tabular}
+\end{table}

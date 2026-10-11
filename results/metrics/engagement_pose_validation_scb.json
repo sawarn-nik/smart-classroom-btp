@@ -1,0 +1,52 @@
+{
+  "n_images": 600,
+  "n_faces_linked": 4932,
+  "per_class": {
+    "hand_raising": {
+      "n_faces": 594,
+      "pitch_median": -0.25090310722589493,
+      "abs_yaw_median": 19.402321815490723,
+      "face_width_median": 37.40381622314453,
+      "mediapipe_success": 0.35185185185185186
+    },
+    "reading": {
+      "n_faces": 1854,
+      "pitch_median": -4.899460792541504,
+      "abs_yaw_median": 20.440324783325195,
+      "face_width_median": 25.79168701171875,
+      "mediapipe_success": 0.16127292340884575
+    },
+    "writing": {
+      "n_faces": 642,
+      "pitch_median": -7.218645095825195,
+      "abs_yaw_median": 18.075312614440918,
+      "face_width_median": 25.9271240234375,
+      "mediapipe_success": 0.09034267912772585
+    },
+    "bowing_head": {
+      "n_faces": 60,
+      "pitch_median": -4.0011924505233765,
+      "abs_yaw_median": 23.287537574768066,
+      "face_width_median": 17.33740234375,
+      "mediapipe_success": 0.11666666666666667
+    },
+    "turning_head": {
+      "n_faces": 941,
+      "pitch_median": 1.0926402807235718,
+      "abs_yaw_median": 23.585996627807617,
+      "face_width_median": 22.0133056640625,
+      "mediapipe_success": 0.3198724760892667
+    },
+    "discussing": {
+      "n_faces": 841,
+      "pitch_median": -3.045057773590088,
+      "abs_yaw_median": 19.148475646972656,
+      "face_width_median": 17.66265869140625,
+      "mediapipe_success": 0.16765755053507728
+    }
+  },
+  "auc_bowing_vs_rest_from_-pitch": 0.5282430213464697,
+  "auc_turning_vs_rest_from_|yaw|": 0.5384556804350703,
+  "mediapipe_success_overall": 0.20579886455798865,
+  "insightface_pose_success_overall": 1.0
+}
