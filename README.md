@@ -1,4 +1,4 @@
-# Smart Classroom Analytics (BTP, Sem 7)
+# Smart Classroom Analytics (BTP, Sem 7).
 
 Attendance (face recognition), engagement (facial cues) and classroom
 behaviour detection, with one shared face detector.
