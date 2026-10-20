@@ -44,4 +44,4 @@ python -m scripts.pipeline_benchmark
 python -m scripts.engagement_extract_daisee      # after DAiSEE arrives
 python -m scripts.engagement_train
 ```
-`scripts/run_queue.sh` runs the first block sequentially (8 GB RAM machine).
+
