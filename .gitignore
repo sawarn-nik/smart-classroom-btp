@@ -12,3 +12,4 @@ paper/*.out
 paper/*.bbl
 paper/*.blg
 paper/template_original/
+.DS_Store
